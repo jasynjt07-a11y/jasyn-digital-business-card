@@ -61,16 +61,26 @@ body {
 .rfc-mark strong { font-family: Georgia, serif; font-size: 34px; letter-spacing: 2px; }
 .rfc-mark small { font-size: 7px; letter-spacing: 1px; }
 
-.eyebrow, .role, .podcast, .school { margin: 0; font-weight: 800; letter-spacing: 1.4px; }
+.eyebrow, .role, .podcast, .school { margin: 0; font-weight: 900; letter-spacing: 1.4px; }
 .eyebrow { margin-bottom: 10px; font-size: 10px; color: #f6dfa4; }
 h1 { margin: 0 0 8px; font-family: Georgia, serif; font-size: clamp(36px, 10vw, 52px); line-height: .82; letter-spacing: 1px; }
 .role { font-size: 10px; line-height: 1.5; }
-.podcast { margin-top: 5px; font-size: 13px; color: #f4cf6f; }
+.podcast {
+  display: inline-block;
+  margin-top: 9px;
+  padding: 8px 11px;
+  border-left: 4px solid #f4cf6f;
+  color: #fff;
+  background: rgba(113, 0, 23, .88);
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 1.8px;
+}
 .school { margin-top: 12px; font-size: 10px; }
 
 .motto { padding: 27px 30px 23px; border-bottom: 4px solid var(--gold); }
-.motto span { color: var(--red); font-size: 12px; font-weight: 800; letter-spacing: 3px; }
-.motto h2 { margin: 10px 0 0; font-family: Georgia, serif; font-size: 32px; line-height: 1.05; }
+.motto span { color: var(--red); font-size: 12px; font-weight: 900; letter-spacing: 3px; }
+.motto h2 { margin: 10px 0 0; font-family: Georgia, serif; font-size: 32px; font-weight: 800; line-height: 1.05; }
 
 .actions { display: grid; gap: 12px; padding: 24px 30px; }
 .actions a {
