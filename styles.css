@@ -63,8 +63,8 @@ body {
 
 .eyebrow, .role, .podcast, .school { margin: 0; font-weight: 900; letter-spacing: 1.4px; }
 .eyebrow { margin-bottom: 10px; font-size: 10px; color: #f6dfa4; }
-h1 { margin: 0 0 8px; font-family: Georgia, serif; font-size: clamp(36px, 10vw, 52px); line-height: .82; letter-spacing: 1px; }
-.role { font-size: 10px; line-height: 1.5; }
+h1 { margin: 0 0 8px; font-family: Georgia, serif; font-size: clamp(33px, 9vw, 47px); line-height: .82; letter-spacing: 1px; }
+.role { font-size: 12px; line-height: 1.5; }
 .podcast {
   display: inline-block;
   margin-top: 9px;
@@ -76,11 +76,11 @@ h1 { margin: 0 0 8px; font-family: Georgia, serif; font-size: clamp(36px, 10vw, 
   line-height: 1.25;
   letter-spacing: 1.8px;
 }
-.school { margin-top: 12px; font-size: 10px; }
+.school { margin-top: 12px; font-size: 12px; }
 
 .motto { padding: 27px 30px 23px; border-bottom: 4px solid var(--gold); }
-.motto span { color: var(--red); font-size: 12px; font-weight: 900; letter-spacing: 3px; }
-.motto h2 { margin: 10px 0 0; font-family: Georgia, serif; font-size: 32px; font-weight: 800; line-height: 1.05; }
+.motto span { color: var(--red); font-size: 14px; font-weight: 900; letter-spacing: 3px; }
+.motto h2 { margin: 10px 0 0; font-family: Georgia, serif; font-size: 34px; font-weight: 800; line-height: 1.05; }
 
 .actions { display: grid; gap: 12px; padding: 24px 30px; }
 .actions a {
@@ -107,7 +107,7 @@ h1 { margin: 0 0 8px; font-family: Georgia, serif; font-size: clamp(36px, 10vw, 
   .brand-row { grid-template-columns: 82px 1fr; gap: 17px; padding: 27px 20px 23px; }
   .rfc-mark strong { font-size: 26px; }
   .motto, .actions { padding-left: 20px; padding-right: 20px; }
-  .motto h2 { font-size: 28px; }
+  .motto h2 { font-size: 30px; }
   .actions a { align-items: flex-start; flex-direction: column; gap: 5px; }
   .actions strong { text-align: left; overflow-wrap: anywhere; }
 }
